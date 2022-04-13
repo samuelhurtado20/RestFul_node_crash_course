@@ -1,0 +1,8 @@
+PUT http://localhost:3000/6256290bd59d2760561b4964
+Content-Type: application/json
+
+{
+    "title":"Second",
+    "author":"Samuelh",
+    "body":"content of the article"
+}

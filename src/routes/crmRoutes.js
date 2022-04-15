@@ -3,6 +3,8 @@ const BlogCtrl = require('../controllers/crmController');
 const routes = (app) =>
 {
     app.get('/', BlogCtrl.all);
+    
+    app.get('/:id', BlogCtrl.single);
 
     app.post('/', BlogCtrl.add)
 
